@@ -308,10 +308,10 @@
 									<div class="wrap">
 										<div class="desc">
 											<span class="teacher">David Clarson</span>
-											<h3><a href="#">Developing Mobile Apps Using Ruby on Rails</a></h3>
+											<h3><a href="#">Desarrollo movil con Ionic y NodeJS</a></h3>
 										</div>
 										<div class="pricing">
-											<p><span class="price">$150</span> <span class="price old-price">$250</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
+											<p><span class="price">$50</span> <span class="price old-price">$75</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
 										</div>
 									</div>
 								</div>
@@ -323,10 +323,10 @@
 									<div class="wrap">
 										<div class="desc">
 											<span class="teacher">David Clarson</span>
-											<h3><a href="#">Developing Mobile Apps Using Ruby on Rails</a></h3>
+											<h3><a href="#">Aprende Marketing digital</a></h3>
 										</div>
 										<div class="pricing">
-											<p><span class="price">$150</span> <span class="price old-price">$250</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
+											<p><span class="price">$50</span> <span class="price old-price">$75</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
 										</div>
 									</div>
 								</div>
@@ -338,10 +338,10 @@
 									<div class="wrap">
 										<div class="desc">
 											<span class="teacher">David Clarson</span>
-											<h3><a href="#">Developing Mobile Apps Using Ruby on Rails</a></h3>
+											<h3><a href="#">Desarrollo nativo con Flutter</a></h3>
 										</div>
 										<div class="pricing">
-											<p><span class="price">$150</span> <span class="price old-price">$250</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
+											<p><span class="price">$75</span> <span class="price old-price">$100</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
 										</div>
 									</div>
 								</div>
@@ -353,10 +353,10 @@
 									<div class="wrap">
 										<div class="desc">
 											<span class="teacher">David Clarson</span>
-											<h3><a href="#">Developing Mobile Apps Using Ruby on Rails</a></h3>
+											<h3><a href="#">Desarrollo Web HTML,CSS</a></h3>
 										</div>
 										<div class="pricing">
-											<p><span class="price">$150</span> <span class="price old-price">$250</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
+											<p><span class="price">$50</span> <span class="price old-price">$75</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
 										</div>
 									</div>
 								</div>
@@ -368,10 +368,10 @@
 									<div class="wrap">
 										<div class="desc">
 											<span class="teacher">David Clarson</span>
-											<h3><a href="#">Developing Mobile Apps Using Ruby on Rails</a></h3>
+											<h3><a href="#">Aprende JavaScript</a></h3>
 										</div>
 										<div class="pricing">
-											<p><span class="price">$150</span> <span class="price old-price">$250</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
+											<p><span class="price">$50</span> <span class="price old-price">$75</span> <span class="more"><a href="#"><i class="icon-link"></i></a></span></p>
 										</div>
 									</div>
 								</div>

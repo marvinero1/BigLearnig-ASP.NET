@@ -129,121 +129,120 @@
 		<div class="container">
           <div class="row">
             
-              <form>
-
-                <div class="form-group" style="padding: 20px;">
-
-                    <label>Nombre</label>
-                    <input type="text" class="form-control" placeholder="Ingrese su nombre">
-                    <br>
-                               
-                    <label>Apellido</label>
-                    <input type="text" class="form-control"  placeholder="Ingrese su apellido">
-                    <br>
-                
-                    <label>Direccion</label>
-                    <input type="text" class="form-control" placeholder="Ingrese su direccion">
-                    <br>
-
-                    <label>Fecha Nacimiento</label>
-                    <input class="form-control" placeholder="Ingrese su Fecha Nacimiento" width="276" id="datepicker">
-                        <script>
-                            $('#datepicker').datepicker({
-                                uiLibrary: 'bootstrap4'
-                            });
-                        </script>
-                    <br>                    
-
-                    <label>Género</label>  <br>  
-                    <input type="radio" value="masculino" checked>Masculino<br>
-                    <input type="radio" value="femenino">Femenino<br>
-                    <input type="radio" value="otro"> Otro
-                    <br>
-                    <br>                  
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-              </div>
-                <div style="float:right;">
-                  
-                </div>
-            </form>
-            </div>
-
+              
+    <div class="form-group" style="padding: 20px;">
+      <form id="form1" runat="server">
+            
+        <asp:Label ID="lblid" runat="server" Text="ID"></asp:Label>
+            
+        <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
+         <br/>  
+         <br/>  
+        <asp:Label ID="lblnombre" runat="server" Text="NOMBRE"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtnombre" runat="server"></asp:TextBox>
+          <br/>
+          <br/>   
+        <asp:Label ID="lblapellido" runat="server" Text="APELLIDO PATERNO"></asp:Label>
+        <asp:TextBox ID="txtapellido" runat="server" ></asp:TextBox>
+          <br/>
+          <br/>   
+        <asp:Label ID="Label4" runat="server" Text="APELLIDO MATERNO"></asp:Label>
+        <asp:TextBox ID="TextBox4" runat="server" ></asp:TextBox>
+          <br/>  
+          <br/> 
+        <asp:Label ID="Label1" runat="server" Text="FECHA NACIMIENTO"></asp:Label>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br/>
+        <br/> 
+          <asp:Label ID="lbldireccion" runat="server" Text="DIRECCION"></asp:Label>
+        <asp:TextBox ID="txtdireccion" runat="server"></asp:TextBox>
+          <br/>  
+          <br/> 
+        <asp:Label ID="Label2" runat="server" Text="PADRE"></asp:Label>
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+          <br/>  
+          <br/> 
+        <asp:Label ID="Label3" runat="server" Text="MADRE"></asp:Label>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        <div>    
+        <br />
+        <br />
+        </div>
+            <asp:Button ID="btnmostrar" runat="server" Text="Enviar Datos"/>
+        </form>
+       </div>                          
+     </div>
 
             <p style="color: red;text-align: center;font-size: 25px;">Visualizacion de Estudiantes</p>
             <br>
-           <div class="table-responsive">
-
-                
+           <div class="table-responsive"> 
               <table id="mytable" class="table table-bordred table-striped">
-                   
-                   <thead>
-                   
-                   <th><input type="checkbox" id="checkall" /></th>
-                   <th>First Name</th>
-                    <th>Last Name</th>
-                     <th>Address</th>
-                     <th>Email</th>
-                     <th>Contact</th>
-                      <th>Edit</th>
+                <th>Nombre</th>
+                <th>Apellido Materno</th>
+                <th>Apellido Paterno</th>
+                <th>Direccion</th>
+                <th>Correo Electronico</th>
+                <th>Telefono</th>
+                <th>Acciones</th>
                       
-                       <th>Delete</th>
-                   </thead>
+                       
+                   
             <tbody>  
-            <tr>
-            <td><input type="checkbox" class="checkthis" /></td>
-            <td>Mohsin</td>
-            <td>Irshad</td>
-            <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
+            <tr>            
+            <td>Alberto</td>
+            <td>Martinez</td>
+            <td>Calderon</td>
+            <td>Cercado, Cochabamba</td>
             <td>isometric.mohsin@gmail.com</td>
-            <td>+923335586757</td>
+            <td>+591 75723386</td>
             <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
             <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
             </tr>
     
-         <tr>
-            <td><input type="checkbox" class="checkthis" /></td>
-            <td>Mohsin</td>
-            <td>Irshad</td>
-            <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-            <td>isometric.mohsin@gmail.com</td>
-            <td>+923335586757</td>
-            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-            </tr>
-    
-    
-         <tr>
-            <td><input type="checkbox" class="checkthis" /></td>
-            <td>Mohsin</td>
-            <td>Irshad</td>
-            <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-            <td>isometric.mohsin@gmail.com</td>
-            <td>+923335586757</td>
+         <tr>            
+            <td>Yesenia</td>
+            <td>Escalera</td>
+            <td>Inturias</td>
+            <td>Cercado, La Paz</td>
+            <td>yessi16@gmail.com</td>
+            <td>+591 75691186</td>
             <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
             <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
             </tr>
     
     
+         <tr>           
+            <td>Julio</td>
+            <td>Escobar</td>
+            <td>Fuentes</td>
+            <td>Cercado, Cochabamba</td>
+            <td>escftns@gmail.com</td>
+            <td>+591 76485124</td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+            </tr>
     
-         <tr>
-            <td><input type="checkbox" class="checkthis" /></td>
-            <td>Mohsin</td>
-            <td>Irshad</td>
-            <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-            <td>isometric.mohsin@gmail.com</td>
-            <td>+923335586757</td>
+    
+    
+         <tr>            
+            <td>Simon</td>
+            <td>Orellana</td>
+            <td>Paz</td>
+            <td>Cercado, Cochabamba</td>
+            <td>Oreelana1992@gmail.com</td>
+            <td>+591 72214856</td>
             <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
             <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
           </tr>
     
     
          <tr>
-            <td><input type="checkbox" class="checkthis" /></td>
-            <td>Mohsin</td>
-            <td>Irshad</td>
-            <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-            <td>isometric.mohsin@gmail.com</td>
-            <td>+923335586757</td>
+            <td>Adal</td>
+            <td>Fernandez</td>
+            <td>Simeone</td>
+            <td>Cercado, Cochabamba</td>
+            <td></td>
+            <td>+591 76965825</td>
             <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
             <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
             </tr>   
